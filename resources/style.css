@@ -1,0 +1,113 @@
+*{
+    background-color: black;
+    font-family: Helvetica;
+    color:seashell;
+    opacity: .9;
+
+}
+/* header section */
+header{
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 10px;
+    height: 50px;
+}
+li{
+    text-decoration: underline;
+    display: inline;
+    margin: 0 10px;
+    
+}
+li a{
+    color: seashell;
+}
+
+/* banner */
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerheading{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+}
+
+/* main content */
+div.content{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+div.contenthead{
+    margin: 30px 0px;
+    text-align: center;
+}
+div.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.items img{
+    height: 200px;
+    width: 300px;
+}
+.items p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 22px;
+}
+
+/* location */
+/* should be contained in a 500px height */
+.location{
+    margin: 0 auto;
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+}
+
+.encapsulate{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    opacity: 1;
+    
+}
+.card-container{
+    width: 980px;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    opacity: 1;
+}
+.locationhead, .locationhead h2{
+    background-color: transparent;
+}
+.cards{
+    width: 300px;
+    opacity: 1;
+    text-align: center;
+    line-height: 30px;
+}
+#contact{
+    margin: 20px 20px;
+    text-align: center;
+}
+#copyright{
+    margin: 0 20px;
+}
